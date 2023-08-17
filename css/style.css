@@ -1,0 +1,62 @@
+.nav {
+    height: 50px;
+    background-color: rgba(27, 27, 145, 0.342);
+}
+.nav div {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+.nav ul {
+    position: absolute;
+    right: 5px;
+}
+.nav ul li {
+    display: inline-block;
+}
+.nav ul li a {
+    color: white;
+    padding: 5px;
+}
+.home {
+    background: url("../assets/image/bg.jpg");
+    background-size: cover;
+    height: 200vh;
+}
+.home .text-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: white;
+
+}
+.footer {
+    text-align: center;
+    font-size: 10px;
+}
+
+.hover:active {
+    background-color: rgba(129, 78, 211, 0.356);
+}
+
+.hover:hover {
+    background-color: rgb(126, 0, 245);
+    border-radius: 20px;
+}
+
+/*this is for about.html*/
+p, h1, h2, h3, ul, li {
+    
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    
+}
+p {
+    background-color: rgba(0, 136, 255, 0.096);
+}
